@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+.hexagon {
+  position: relative;
+  width: 300px; 
+  height: 173.21px;
+  background-color: transparent;
+ /* margin: 86.60px 0;*/
+  border-left: solid 20px #ffff00;
+  border-right: solid 20px #ffff00;
+  margin: auto;
+  transition: all 0.5s ease;
+
+}
+.hexagon:hover{
+    background: #ffff00;
+}
+.hexagon:hover .hex-p{
+    color: #464545
+}
+.hex-p{
+        color: #e5e5e5;
+    position: relative;
+    font-family: 'Lobster', cursive;
+
+    z-index: 1000;
+    font-size: 39px;
+    font-weight: 900;
+    text-align: center;
+}
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 212.13px;
+  height: 212.13px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 23.9340px;
+}
+
+.hexagon:before {
+  top: -106.0660px;
+  border-top: solid 28.2843px #ffff00;
+  border-right: solid 28.2843px #ffff00;
+}
+
+.hexagon:after {
+  bottom: -106.0660px;
+  border-bottom: solid 28.2843px #ffff00;
+  border-left: solid 28.2843px #ffff00;
+}
+
+.about-intro {
+    background: url(../images/intro_bg.png) no-repeat center fixed;
+    /*height: 500px;*/
+    padding: 180px 0px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+#hexagon-overlay {
+    background: url(../images/hexagon_pat.png) repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: .5;
+    background-attachment: fixed
+}
+.about-intro h2{
+    color: #fff;
+        font-size: 44px;
+}
+.about-intro p{
+        color: #e5e5e5;
+}
+.about-wrap{
+    border-top: 5px solid #ddd;
+    background: #f6f6f6;
+    padding: 90px 0px
+}
+.sec-title h3{
+        font-weight: 700;
+    font-size: 36px;
+}
+.sec-icon i{
+        color: #e9fa09;
+    font-size: 46px;
+    margin-bottom: 16px;
+}
+.single-about{
+        padding: 0px 30px;
+}
+.single-about h3{
+    color: #464545;
+    font-weight: 700;
+        font-size: 28px;
+}
+.single-about p{
+        font-size: 13px;
+    color: #464545;
+}
+.about-join{
+    padding: 90px 0px;
+        background: #2b2b2b;
+        position: relative
+}
+.about-join h2{
+        color: #fff;
+}
+.about-join p{
+        color: #bababa;
+}
+.btn-yellow{
+    background: #e9fa09;
+    border-color: #e9fa09
+}
+.join-img{
+        border-radius: 10px;
+}
+
+.contact-intro{
+        background: #e9fa09;
+    background-image: url(../images/hexagon_pat.png),
+    linear-gradient(108.84deg, #464545 0%, #464545 100%);
+    background-repeat: no-repeat;
+    background-blend-mode: overlay, normal;
+    color: white;
+    padding: 120px 0px;
+        background-repeat: repeat;
+    background-attachment: fixed;
+
+}
+.contact-intro h2{
+        font-size: 46px;
+}
+textarea.form-control{
+    height: 100px
+}
+.form-control{
+        background-color: rgba(0,0,0,0.07);
+}
+
+@media only screen and (max-width : 798px){
+    .about-intro{
+        padding:100px 0px
+    }
+    .hexagon{
+            margin-top: 100px;
+    }
+    .join-img{
+        margin-top: 40px
+    }
+}
