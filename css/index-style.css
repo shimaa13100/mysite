@@ -1,0 +1,136 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.clr{
+    
+    clear: both;
+}
+
+header {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('cover.jpg');
+    
+    background-position: bottom center;
+    background-size: cover;
+    height: 600px;
+    
+}
+
+header nav {
+    border-bottom: 1px solid #464545;
+    padding: 15px 0 10px ;
+  
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+  
+
+}
+header nav .navbar-brand a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+header nav .navbar-brand span {
+    color: #E9F90B;
+}
+header nav .sub a {
+ text-decoration: none;
+ color: white;
+ font-size: 25px;
+ transition: all 0.5s;
+
+
+}
+
+header nav .sub a:hover{
+    color: #E9F90B;
+}
+header nav .log {
+    color:white; 
+    font-size: 20px;
+}
+
+header nav .log a {
+   text-decoration: none;
+   color:white; 
+   transition: all 0.5s;
+
+}
+header nav .log a:hover{
+    color: #E9F90B;
+}
+
+header .text {
+    color: white;
+    
+}
+header .text h2 {
+    font-size: 50px;
+    padding-top: 100px;
+}
+header .text h2 span {
+    color: #E9F90B;
+}
+header .text p {
+    font-size: 40px; 
+}
+header .btn {
+    border: 1px solid #E9F90B;
+    color: #E9F90B;
+    padding: 10px 30px;
+}
+
+header .btn:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.fav .tit  {
+ color: #464545;
+ border: 1px solid #E9F90B;
+ width: 40%;
+ margin: auto;
+ padding:10px;
+}
+
+.fav  .card .text  a {
+    text-decoration: none;
+    color: #464545;
+}
+.fav  .card .text span{
+    font-size: 10px;
+}
+.fav  .card .text  a:hover {
+    text-decoration: none;
+    color:#E9F90B;
+}
+
+
+footer {
+   
+    background-color: #464545;
+    text-align: center;
+}
+footer a {
+   
+    color: #999;
+}
+footer  .link a {
+    text-decoration: none;
+    padding-right: 20px;
+}
+footer  .link a:hover{
+    color: #E9F90B;
+}
+
+footer  .icon a {
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 25px;
+}
+footer  .icon a:hover{
+    color: #E9F90B;
+}

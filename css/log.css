@@ -1,0 +1,61 @@
+.log {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('cover.jpg');
+    background-position:center center;
+    background-size: cover;
+    position: absolute;
+   
+}
+.log-body {
+    position: relative;
+    top:15% ;
+
+    width: 50%;
+    height: 70%;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: auto;
+
+}
+
+.nav-brand a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    padding-right: 100px;
+}
+.nav-brand span {
+    color: #E9F90B;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #E9F90B;
+    background-color: transparent;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    text-align: center;
+}
+a:hover {
+    color: #E9F90B;
+    text-decoration: none;
+    background-color: transparent;
+}
+form .in {
+    margin-left:150px;
+
+}
+.btn {
+    background: transparent;
+    border: 1px solid #E9F90B;
+    color: #E9F90B;
+}
+
+.btn:hover {
+    background: #E9F90B;
+    border: 1px solid #E9F90B;
+    color: white;
+}
