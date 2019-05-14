@@ -1,0 +1,58 @@
+.info 
+{
+    text-align: center;
+    margin-top: 50px;
+    
+   
+}
+.info table
+{
+  margin: auto;
+  color:#343a40ab;
+}
+.info img
+{
+width: 200px;
+height: 200px;
+border-radius: 50%;
+margin-bottom: 10px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link
+{
+    background-color: white;
+    color: #343a40ab;
+    font-weight: 800;
+    border-bottom: solid 5px #ffff00;
+}
+.nav-pills .nav-link
+{
+    color: #343a40ab;  
+}
+.siteDes
+{
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+
+}
+
+.desIcon
+{
+    position: absolute;
+    color:#343a40ab;  
+    background-color: rgba(236, 230, 15, 0.77);
+    top:13%;
+    left: 8%;
+    width:80%;
+    height: 60%;
+    padding: 5% 5%;
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+
+.siteDes:hover .desIcon
+{
+opacity: 1;
+}

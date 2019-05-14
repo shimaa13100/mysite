@@ -1,0 +1,42 @@
+.gallery1 .imgs img
+{
+    width: 30%;
+    height: 40%;
+    margin-left: 20px;
+    
+}
+@media only screen and (max-width:975px)
+{
+    .gallery1 .imgs img
+{
+    width: 25%;
+    height: 30%;
+    margin-left: 10px;
+    
+}
+
+}
+.comments
+{
+    background-color: lightgray;
+    padding: 20px;
+}
+.comments .icon1 i
+{
+    color: black;
+    
+    font-size: 30px;
+}
+.comments .comments1
+{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.comments .comments1 img
+{
+ border-radius: 50%;
+ width: 5%;
+ height: 8%;
+}
