@@ -32,7 +32,9 @@ header nav .navbar-brand a {
     color: white;
     font-size: 25px;
     font-weight: 700;
+	padding-right: 20px;
 }
+
 header nav .navbar-brand span {
     color: #E9F90B;
 }
@@ -77,10 +79,14 @@ header .text h2 span {
 header .text p {
     font-size: 40px; 
 }
-header .btn {
+header .btn  {
     border: 1px solid #E9F90B;
     color: #E9F90B;
     padding: 10px 30px;
+}
+header .btn a {
+	text-decoration: none;
+	color: #E9F90B;
 }
 
 header .btn:hover {

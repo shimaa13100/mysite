@@ -1,0 +1,64 @@
+ nav {
+    border-bottom: 1px solid #464545;
+    padding: 15px 0 10px ;
+  
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   background-color: #464545;
+  
+
+}
+ nav .navbar-brand a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+ nav .navbar-brand span {
+    color: #E9F90B;
+}
+ nav .sub a {
+ text-decoration: none;
+ color: white;
+ font-size: 25px;
+ transition: all 0.5s;
+
+
+}
+
+ nav .sub a:hover{
+    color: #E9F90B;
+}
+nav .log {
+    color:white; 
+    font-size: 20px;
+}
+
+ nav .log a {
+   text-decoration: none;
+   color:white; 
+   transition: all 0.5s;
+
+}
+ nav .log a:hover{
+    color: #E9F90B;
+}
+
+h2 {
+    text-align: center;
+    color: #464545;
+    margin-top: 50px;
+}
+.btn {
+    background: transparent;
+    border: 1px solid #E9F90B;
+    color: #E9F90B;
+}
+
+.btn:hover {
+    background: #E9F90B;
+    border: 1px solid #E9F90B;
+    color: white;
+}
